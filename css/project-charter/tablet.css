@@ -1,0 +1,17 @@
+@media (max-width:991px ) {
+    .goal-item {
+        width: 100%;
+        display: block;
+        padding: 0 30px;
+    }
+    .goal-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .team-item {
+        width: 100%;
+        display: block;
+    }
+}

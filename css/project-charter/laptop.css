@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.background-blue {
+    background-color: blue;
+}
+
+.background-grey {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+
+
+.border-bottom-grey {
+    border-bottom: 2px solid grey;
+}
+
+.charter-title {
+    color: blue;
+    padding: 20px;
+}
+
+.goal-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.team-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+}
+
+.material-symbols-outlined {
+    font-size: 36px;
+}
+
+.goal-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.goal-desc {
+    width: calc(100% - 100px);
+}
+
+.border-item {
+    margin: 0 20px 20px
+}
+
