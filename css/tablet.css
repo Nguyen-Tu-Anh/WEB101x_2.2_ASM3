@@ -1,0 +1,80 @@
+@media (max-width: 767px) {
+    .infor-item1-title {
+        display: none;
+    }
+
+    .infor-item1-title1 {
+        display: none;
+    }
+
+    .infor-item {
+        padding: 22px 15px;
+        font-size: 13px;
+    }
+
+    .infor-item1 {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0 20px;
+        padding-top: 5px;
+    }
+
+    #personal-info {
+        padding: 30px 30px;
+    }
+
+    #target {
+        padding: 30px 30px;
+
+    }
+
+    .about-title {
+        margin-bottom: 10px;
+    }
+
+    .job-container-item {
+        height: auto;
+    }
+
+    .certificate-item-img {
+        width: 100%;
+    }
+
+    .container-certificate {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .certificate-item {
+        flex-direction: column;
+    }
+
+    .certificate-item1 {
+        padding-left: 10px;
+    }
+
+    .certificate-item2 {
+        padding-right: 10px;
+    }
+
+    .project-item-time {
+        flex-wrap: wrap;
+    }
+
+    .container-project {
+        padding: 5vw;
+        width: 100vw;
+    }
+
+    .project-title {
+        margin: 20px 0;
+    }
+
+    .project-item {
+        width: 30vw;
+    }
+
+    .infoShow {
+        top: 83px;
+        left: 25px;
+    }
+}
