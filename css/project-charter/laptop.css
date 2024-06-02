@@ -41,7 +41,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 16px;
+    padding: 0 16px;
 }
 
 .material-symbols-outlined {
@@ -61,5 +61,56 @@
 
 .border-item {
     margin: 0 20px 20px
+}
+
+.team-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+}
+
+.goal-desc {
+    width: calc(100% - 100px);
+    margin: 10px;
+}
+
+.scopes-items {
+    display: flex;
+    padding: 26px;
+    margin-bottom: 50px
+}
+
+.scopes-item {
+    width: 50%;
+    padding-right: 80px;
+}
+
+.scopes-item-title {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 19px
+}
+
+.scopes-item-content {
+    margin-bottom: 15px;
+}
+
+.timeline-desc {
+    width: calc(100% - 100px);
+    margin: 10px;
+    border-bottom: 1px dotted deepskyblue;
+}
+
+.primary-desc {
+    width: calc(100% - 100px);
+    margin: 10px;
+}
+
+.timeline-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
 }
 

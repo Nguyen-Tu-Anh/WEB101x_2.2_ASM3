@@ -14,4 +14,27 @@
         width: 100%;
         display: block;
     }
+    .team-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .scopes-items{
+        display: block;
+    }
+    .scopes-item{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .scopes-item-title1{
+        margin-top: 25px;
+    }
+    .timeline-desc{
+        width: calc(100% - 26px);
+    }
+    .primary-desc{
+        width: calc(100% - 26px);
+        margin: 10px;
+    }
 }
